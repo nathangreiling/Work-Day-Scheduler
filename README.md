@@ -4,4 +4,7 @@ This website is a daily planner for a 9-5 work schedule. The current date is pre
 Within the timeblocks users can input their task or event and click the save event button to save that task or event to local storage.
 Upon page refresh, the local storage will generate the events listed by the user and they will be shown in the corresponding blocks.
 
-[<img alt="Screenshot of Application" width="200px" src="./assets/images/Screenshot (16).png" />]
+<img alt="Screenshot of Application" width="200px" src="./assets/images/Screenshot (16).png" />
+
+
+link to deployed application: https://nathangreiling.github.io/Work-Day-Scheduler/
