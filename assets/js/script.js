@@ -18,6 +18,27 @@ function timeSlots () {
             $(this).addClass("future");
         }
     });
-  }
+  };
+
 timeSlots();
+
+// saves user input, specific to each hour, to local storage
+var saveTasks = function(){
+    localStorage.setItem(taskTime, JSON.stringify(userInput));
+}
+
+var saveBtn = document.querySelector('.saveBtn');
+
+$(".saveBtn").on("click", function(){
+    taskTime = $(this).siblings(".input-group-prepend").text().trim();
+    userInput = $(this).siblings(".form-control").val().trim();
+    saveTasks();
+});
+
+// ----
+var loadTasks = function(){}
+
+
+
+
 
